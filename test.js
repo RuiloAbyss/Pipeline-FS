@@ -15,7 +15,7 @@ const req = http.request(options, (res) => {
         console.log("Test Failed (La API no protegió la ruta correctamente)");
         process.exit(1);
     }
-});
+}); // cambio intencionado Hola mundo!
 
 req.on('error', () => {
     console.error("Error de conexión a la API");
